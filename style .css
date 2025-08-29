@@ -1,0 +1,95 @@
+.main-header {
+    display: flex;
+}
+
+.links ul li a {
+    text-decoration: none;
+    /* padding-right: 20px; */
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    gap: 43px;
+    margin-right: 970px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logo-img img {
+   height: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    /* banner ki height fix karo */
+    background-image: url(/photo/banner-1.webp);
+    background-size: cover;
+    /* yeh important hai */
+    background-position: center;
+    /* image center rahegi */
+    background-repeat: no-repeat;
+    /* repeat band */
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    /* banner ki total height */
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+/* Navbar content upar rahe */
+.main-header {
+    position: relative;
+    z-index: 10;
+    /* slider ke upar rahe */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.banner-text {
+    color: white;
+}
+
+.btnf {
+    background: linear-gradient(to right, rgb(48, 180, 233) 0%, rgb(24, 209, 241) 100%);
+    background-size: 0% 100%;
+    /* pehle hidden */
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+
+    transition: background-size 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    background-color: #0044cc;
+    /* normal blue */
+}
+
+/* Hover effect */
+.btnf:hover {
+    background-size: 100% 100%;
+    /* red left se fill hoke pura cover karega */
+
+}
