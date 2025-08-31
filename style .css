@@ -31,7 +31,7 @@
 .banner {
     width: 100%;
     height: 700px;
-    /* banner ki height fix karo */
+    /* banner ki height fix karo */ 
     background-image: url(/photo/banner-1.webp);
     background-size: cover;
     /* yeh important hai */
@@ -92,4 +92,90 @@
     background-size: 100% 100%;
     /* red left se fill hoke pura cover karega */
 
+}
+
+
+.Demo-btn{
+      background: linear-gradient(to right, lab(68.86% -17.06 -36.35) 0%, rgb(24, 209, 241) 100%);
+    background-size: 0% 100%;
+    /* pehle hidden */
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+
+    transition: background-size 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+    background-color: #0044cc;
+
+        margin-left: -200px;
+}
+
+.Demo-btn:hover {
+    background-size: 100% 100%;
+    /* red left se fill hoke pura cover karega */
+
+}
+.armor-mainn h1{
+
+        font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+    cursor: none;
+    line-height: 1.4;
+    color: #000;
+    margin-left: 75px;
+}
+
+.armor-main p{
+    /* margin-top: 180px; */
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #151412;
+    font-weight: 500;
+    margin-right: 40px;
+}
+.icon-color img{
+    height: 25px;
+      margin-top: 180px;
+      position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.About-US h1{
+    font-size: 20px;
+      margin-top: 180px;
+   position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color:rgb(24, 209, 241);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.About-banner{
+      width: 1350px;
+    height: 500px;
+    background-image: url(/photo/About-img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
 }
